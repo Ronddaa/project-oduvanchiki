@@ -5,19 +5,28 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load ="partials/header.html" />
+    <load src="partials/header.html" />
 
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
-    </section>
+    <main class="main">
 
-    <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
+      <load src="partials/hero.html" />
+      <load src="partials/advertisement.html" />
+      <load src="partials/about-us.html" />
+      <load src="partials/our-courses.html" />
+      <load src="partials/our-mentors.html" />
+      <load src="partials/sign-in.html" />
+      <load src="partials/reviews.html" />
+
+    </main>
+
+    <load src="partials/footer.html" />
+
 
     <script type="module" src="/main.js"></script>
   </body>
