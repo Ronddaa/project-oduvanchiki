@@ -1,21 +1,54 @@
 .header {
   padding: 20px 0;
 }
-
-.nav-list {
+.container {
+}
+.header-wrap {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  height: 50px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.header-logo {
+}
+.header-button-wrap {
+  display: flex;
+  gap: 14px;
+}
+.header-sign-up {
+  border-radius: 50%;
+  background-color: #1d1d1d;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-sign-up-icon {
+  fill: rgba(190, 166, 158, 0.4);
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.header-sign-up:active .header-sign-up-icon {
+  fill: rgba(190, 166, 158, 1);
 }
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.header-burger {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 5px;
+}
+.strip {
+  width: 28px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  height: 2px;
+}
+.strip-center {
+  width: 20px;
 }
