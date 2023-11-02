@@ -1,0 +1,103 @@
+.hero {
+}
+.container {
+}
+.hero-wrap {
+  background-color: #1d1d1d;
+  border-radius: 30px;
+  padding: 40px 20px 0 20px;
+}
+.hero-heder {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
+}
+.hero-photography {
+  color: #bea69e;
+  font-style: italic;
+  font-weight: 400;
+  margin-right: 5px;
+}
+.hero-text {
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+}
+.hero-students-reviews {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 31px;
+}
+.hero-students-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.hero-students {
+  position: relative;
+  height: 44px;
+  width: 109px;
+}
+.hero-student-img {
+  border-radius: 50%;
+  position: absolute;
+}
+.hero-first-student {
+  z-index: 3;
+}
+.hero-second-student {
+  left: 32px;
+  z-index: 2;
+}
+.hero-third-student {
+  left: 64px;
+  z-index: 1;
+}
+.hero-happy-wrap {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.hero-happy-link {
+  display: block;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+  width: 67px;
+}
+
+.hero-arrow-icon {
+  fill: #fff;
+}
+.hero-reviews-wrap {
+  display: flex;
+  gap: 12px;
+}
+.hero-star {
+  height: 44px;
+  width: 44px;
+  background-color: #bea69e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-star-icon {
+  fill: rgba(18, 18, 18, 1);
+}
+.hero-reviews-text {
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+  margin-bottom: 4px;
+}
+.hero-reviews-number {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+.hero-img {
+  margin: -40px auto;
+}
