@@ -34,3 +34,24 @@ main{
   gap: 80px;
 }
 
+@media (min-width:768px) {
+  .container{
+    max-width: 704px;
+    padding: 0 32px;
+  }
+
+  main{
+    gap: 100px;
+  }
+}
+
+@media (min-width:1280px) {
+  .container{
+    max-width: 1080px;
+    padding: 0 100px;
+  }
+
+  main{
+    gap: 150px;
+  }
+}
