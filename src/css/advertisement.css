@@ -1,8 +1,8 @@
 .run-line {
     overflow: hidden;
     white-space: nowrap;
-    border-top: 1px solid black;
-    border-bottom: 1px solid rgb(247, 241, 241);
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
     padding: 20px 0;
 
 }
