@@ -10,7 +10,7 @@
 </symbol>
 
 <symbol id="icon-arrow-up-right" viewBox="0 0 32 32">
-   <path fill-rule="evenodd" clip-rule="evenodd" d="M9.57556 3.96516L16.5722 3.74689L15.1423 10.5993L12.841 7.85676L3.26544 15.8916L2.30126 14.7425L11.8768 6.70769L9.57556 3.96516Z" fill="white" fill-opacity="0.4"/>
+    <path d="M47.789 12.063h-47.289v7.875h47.289v11.813l15.711-15.75-15.711-15.75v11.813z"></path>
 </symbol>
 
 <symbol id="icon-star" viewBox="0 0 32 32">
