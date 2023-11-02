@@ -1,0 +1,98 @@
+.our-courses-content {
+    margin-bottom: 80px;
+}
+.course-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+    align-items: baseline;
+    justify-content: center;
+}
+.our-courses-title {
+    font-size: 28px;
+    color: #FFF;
+    font-weight: 500;
+    line-height: 1.14; /* 114.286% */
+    letter-spacing: -0.04em;
+    
+
+}
+.our-courses-span {
+    color: #BEA69E;
+}
+.our-courses-p {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 1.28; /* 128.571% */
+    letter-spacing: -0.02em;
+}
+.our-courses-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.our-courses-item {
+    width: 335px;
+    height: 398px;
+    padding: 28px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+}
+.course-card-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+.card-number {
+    align-self: start;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+    line-height: 1.28; /* 128.571% */
+    letter-spacing: -0.02em;
+}
+.card-icon-wrapper {
+    width: 32px;
+    height: 32px;
+}
+.card-button-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #1D1D1D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+.card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-button-link:hover {
+    fill: #FFFFFF;
+    background-color: #BEA69E;
+}
+.course-card-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 282px;
+}
+.card-title {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14; /* 114.286% */
+    max-width: 279px;
+}
+.card-p {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    line-height: 1.28; /* 128.571% */
+    letter-spacing: -0.02em;
+}
