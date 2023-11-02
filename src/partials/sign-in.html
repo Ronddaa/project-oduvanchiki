@@ -1,4 +1,3 @@
-<!-- max bel -->
 <section class="sect-sign">
   <div class="container">
     <div class="sign-first-div">
@@ -15,6 +14,7 @@
             name="user-name"
             id="user-name"
             placeholder="Enter your name"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
           />
         </div>
         <div class="sign-form-inp-wrap">
@@ -24,6 +24,7 @@
             name="user-mail"
             id="user-mail"
             placeholder="Enter your email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
           />
         </div>
         <div class="sign-form-txtarea-wrap">
@@ -38,8 +39,8 @@
           <button class="sign-form-btn" type="submit">Send</button>
           <p class="sign-form-text-btn">
             By clicking on &#34;Send&#34; button, you agree to our
-            <a href="">Privacy Policy</a>, and allow Promodo to use this
-            information for marketing purposes.
+            <a class="sign-form-link" href="">Privacy Policy</a>, and allow
+            Promodo to use this information for marketing purposes.
           </p>
         </div>
       </form>
