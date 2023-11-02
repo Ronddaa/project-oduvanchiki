@@ -1,0 +1,33 @@
+.run-line {
+    overflow: hidden;
+    white-space: nowrap;
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+    padding: 20px 0;
+
+}
+
+.run-line-title {
+    color: #ffffff;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.56px;
+    text-transform: uppercase;
+
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    animation: runline 8s linear infinite;
+}
+
+@keyframes runline {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

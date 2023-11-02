@@ -1,0 +1,42 @@
+
+/*===========About US============*/
+
+.about-title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+}
+
+.text-decorator {
+    color: #BEA69E;
+}
+
+.about-photo {
+    margin: 40px 0;
+    width: auto;
+
+
+}
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.about-item {}
+
+.about-text {
+    color: #FFF;
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.28px;
+}
+
+/*test*/
