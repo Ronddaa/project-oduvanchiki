@@ -30,7 +30,7 @@
     gap: 20px;
 }
 .our-courses-item {
-    width: 335px;
+    max-width: 335px;
     height: 398px;
     padding: 28px;
     border-radius: 12px;

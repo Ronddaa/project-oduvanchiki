@@ -73,14 +73,16 @@
 
 .footer-form-input {
   display: flex;
+  justify-content: space-between;
   gap: 8px;
 }
 
 .footer-label {
+  width: 100%;
 }
 
 .footer-input {
-  width: 267px;
+  width: 100%;
   padding: 20px 18px;
   font-size: 16px;
   border-radius: 12px;
