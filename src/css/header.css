@@ -54,3 +54,41 @@
 .strip-center {
   width: 20px;
 }
+.header-sign-up-link {
+  display: none;
+}
+@media (min-width: 768px) {
+  .header-container {
+    display: flex;
+    gap: 14px;
+    justify-content: end;
+  }
+  .header-wrap {
+    height: 60px;
+    width: 100%;
+  }
+  .header-sign-up {
+    display: none;
+  }
+  .header-sign-up-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 186px;
+    height: 60px;
+    border-radius: 12px;
+    background-color: #ffff;
+    color: #121212;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.55;
+    text-transform: uppercase;
+  }
+  .header-sign-up-link:hover,
+  .header-sign-up-link:focus {
+    background-color: #1d1d1d;
+    color: #bea69e;
+  }
+}
+@media (min-width: 1280px) {
+}
