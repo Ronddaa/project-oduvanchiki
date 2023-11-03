@@ -39,6 +39,7 @@ section {
   background-repeat: round;
 }
 
+
 @media (min-width: 768px) {
   .container {
     max-width: 704px;
@@ -58,5 +59,26 @@ section {
 
   main {
     gap: 150px;
+
+@media (min-width:768px) {
+  .container{
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  section{
+    padding-bottom: 100px;
+  }
+}
+
+@media (min-width:1280px) {
+  .container{
+    max-width: 1280px;
+    padding: 0 100px;
+  }
+
+  section{
+    padding-bottom: 150px;
+
   }
 }

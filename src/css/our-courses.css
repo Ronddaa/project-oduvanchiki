@@ -1,6 +1,4 @@
-.our-courses-content {
-    margin-bottom: 80px;
-}
+
 .course-title-wrapper {
     display: flex;
     flex-direction: column;
@@ -45,6 +43,7 @@
 }
 .card-number {
     align-self: start;
+    min-width: 14px;
     color: rgba(255, 255, 255, 0.40);
     line-height: 1.28; /* 128.571% */
     letter-spacing: -0.02em;
@@ -78,7 +77,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
-    height: 282px;
+    min-height: 282px;
 }
 .card-title {
     font-size: 28px;
@@ -90,4 +89,50 @@
     color: rgba(255, 255, 255, 0.50);
     line-height: 1.28; /* 128.571% */
     letter-spacing: -0.02em;
+}
+
+
+@media (min-width: 768px) {
+    .course-title-wrapper {
+        flex-direction: row;
+        gap: 58px;
+        margin-bottom: 50px;
+        align-items: flex-start;
+    }
+    .our-courses-title {
+        font-size: 48px;
+        line-height: 1.12; /* 112.5% */
+        letter-spacing: -1.92px;
+        min-width: 265px;
+    }
+    .our-courses-p {
+        line-height: 1.25; /* 125% */
+        font-size: 16px;
+        min-width: 381px;
+        min-height: 80px;
+    }
+    .our-courses-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .our-courses-item {
+        min-width: 342px;
+        min-height: 452px;
+    }
+    .course-card-header-wrapper {
+        max-width: 278px;
+    }
+    .card-title {
+        min-width: 265px;
+    }
+    .card-p {
+        max-width: 278px;
+        min-height: 80px;
+        font-size: 16px;
+        line-height: 1.25; /* 125% */
+    }
+    .course-card-main {
+        height: 324px;
+        max-width: 278px;
+    }
 }
