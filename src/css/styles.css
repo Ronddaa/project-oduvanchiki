@@ -45,8 +45,8 @@ section{
     padding: 0 32px;
   }
 
-  main{
-    gap: 100px;
+  section{
+    padding-bottom: 100px;
   }
 }
 
@@ -56,7 +56,7 @@ section{
     padding: 0 100px;
   }
 
-  main{
-    gap: 150px;
+  section{
+    padding-bottom: 150px;
   }
 }
