@@ -69,3 +69,46 @@
         letter-spacing: -0.32px;
     }
 }
+
+/*============Dekstop vers==========*/
+
+@media (min-width:1280px) {
+
+    .aboutus-wrapper{
+        margin: 0;
+    }
+
+    .about-title{
+        font-size: 48px;
+            line-height: 54px;       
+            letter-spacing: -1.92px;
+    }
+
+    .wrapp-content{
+        display: flex;
+        flex-direction: row;
+        gap:40px;
+    }
+
+    .about-photo{
+        max-width: 300px;
+        
+        margin: 0;
+        
+    }
+
+    .about-list{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-item{
+        max-width: 268px;
+    }
+
+    .about-text{
+        font-size: 16px;  
+            line-height: 20px;           
+            letter-spacing: -0.32px;
+    }
+}
