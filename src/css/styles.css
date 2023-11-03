@@ -15,48 +15,48 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 
-body{
+body {
   background-color: #121212;
   color: #fff;
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;
 }
 
-.container{
+.container {
   max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
 }
 
-section{
+section {
   padding-bottom: 80px;
 }
 
-.background-header-hero{
+.background-header-hero {
   background-image: url(../img/Graphic-bg.png);
-  background-position:  center;
-  background-size:        75%;
-  background-repeat:      round;
+  background-position: center;
+  background-size: 75%;
+  background-repeat: round;
 }
 
-@media (min-width:768px) {
-  .container{
+@media (min-width: 768px) {
+  .container {
     max-width: 704px;
     padding: 0 32px;
   }
 
-  main{
+  main {
     gap: 100px;
   }
 }
 
-@media (min-width:1280px) {
-  .container{
+@media (min-width: 1280px) {
+  .container {
     max-width: 1080px;
     padding: 0 100px;
   }
 
-  main{
+  main {
     gap: 150px;
   }
 }

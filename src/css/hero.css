@@ -145,4 +145,19 @@
   }
 }
 @media (min-width: 1280px) {
+  .hero-wrap {
+    padding: 80px 0 0 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .hero-text {
+    padding-bottom: 136px;
+  }
+  .hero-img {
+    width: 397px;
+  }
+  .hero-students-reviews {
+    margin-bottom: 50px;
+  }
 }
