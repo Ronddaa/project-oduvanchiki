@@ -28,10 +28,20 @@ body{
   margin: 0 auto;
 }
 
-main{
+/* main{
   display: flex;
   flex-direction: column;
   gap: 80px;
+} */
+section{
+  padding-bottom: 80px;
+}
+
+.background-header-hero{
+  background-image: url(../img/Graphic-bg.png);
+  background-position:  center;
+  background-size:        75%;
+  background-repeat:      round;
 }
 
 @media (min-width:768px) {
