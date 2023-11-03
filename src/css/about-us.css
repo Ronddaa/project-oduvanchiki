@@ -39,4 +39,38 @@
     letter-spacing: -0.28px;
 }
 
-/*test*/
+/*==========Tablet Adaptiv==========*/
+@media (min-width:768px) {
+    .about-title {
+        margin-bottom: 50px;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 54px;
+
+        letter-spacing: -1.92px;
+    }
+
+    .about-photo {
+        margin-bottom: 50px;
+    }
+
+    .about-list {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .about-item {
+        width: 280px;
+    }
+
+    .about-text {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+
+        letter-spacing: -0.32px;
+    }
+}
