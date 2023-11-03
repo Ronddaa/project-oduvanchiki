@@ -3,7 +3,6 @@
 
 .about-title {
     font-size: 28px;
-    font-style: normal;
     font-weight: 500;
     line-height: 32px;
     letter-spacing: -1.12px;
@@ -32,7 +31,6 @@
 .about-text {
     color: #FFF;
 
-    font-style: normal;
     font-weight: 400;
     line-height: 18px;
     /* 128.571% */
@@ -44,7 +42,6 @@
     .about-title {
         margin-bottom: 50px;
         font-size: 48px;
-        font-style: normal;
         font-weight: 500;
         line-height: 54px;
 
@@ -62,15 +59,13 @@
     }
 
     .about-item {
-        width: 280px;
+        max-width: 280px;
     }
 
     .about-text {
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
         line-height: 20px;
-
         letter-spacing: -0.32px;
     }
 }
