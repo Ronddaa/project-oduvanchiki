@@ -41,6 +41,39 @@
 
         letter-spacing: -0.8px;
         text-transform: uppercase;
-        animation: runline 15s linear infinite;
+        animation: runline 10s linear infinite;
     }
+          }
+    
+          @keyframes runline {
+              0% {
+                  transform: translateX(120%);
+              }
+    
+              100% {
+                  transform: translateX(-100%);
+              }
+          }
+
+
+/*==============Dekstop vers=============*/
+@media (min-width:1280px){
+    .run-line-title {
+            font-size: 59px;
+                line-height: 64px;
+                letter-spacing: -1.18px;
+                text-transform: uppercase;
+                animation: runline 10s linear infinite;
+    }
+    
+    @keyframes runline {
+        0% {
+            transform: translateX(130%);
+        }
+    
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
 }
