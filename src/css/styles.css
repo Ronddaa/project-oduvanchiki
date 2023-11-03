@@ -28,11 +28,6 @@ body{
   margin: 0 auto;
 }
 
-/* main{
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
-} */
 section{
   padding-bottom: 80px;
 }
