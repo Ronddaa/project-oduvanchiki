@@ -19,7 +19,7 @@
     text-align: center;
     display: inline-block;
     margin: 0;
-    animation: runline 8s linear infinite;
+    animation: runline 10s linear infinite;
 }
 
 @keyframes runline {
@@ -29,5 +29,18 @@
 
     100% {
         transform: translateX(-100%);
+    }
+}
+
+@media (min-width:768px){
+    .run-line-title{
+        font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 50px;
+            
+            letter-spacing: -0.8px;
+            text-transform: uppercase;
+            animation: runline 15s linear infinite;
     }
 }
