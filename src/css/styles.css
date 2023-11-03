@@ -41,7 +41,7 @@ section{
 
 @media (min-width:768px) {
   .container{
-    max-width: 764px;
+    max-width: 768px;
     padding: 0 32px;
   }
 
