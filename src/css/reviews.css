@@ -1,0 +1,74 @@
+.reviews{
+    padding-bottom: 40px;
+}
+
+.wrapper-reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title-reviews{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14286;
+    letter-spacing: -1.12px;
+}
+
+.wrapper-comments{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    padding: 20px;
+    border-radius: 12px;
+
+}
+
+.wrapper-user-info{
+    display: flex;
+    gap: 10px;
+}
+
+.user-comments-photo{
+    border-radius: 50%;
+    height: 56px;
+}
+
+.wrapper-user-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name{
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; 
+}
+
+.user-text-p{
+color: rgba(255, 255, 255, 0.50);
+font-size: 12px;
+font-weight: 400;
+line-height: 1.33333;
+letter-spacing: -0.24px;
+margin-top: 4px;
+}
+
+.wrapper-mmr{
+    margin-top: 10px;
+}
+
+.plus-mmr{
+    fill: #BEA69E;
+}
+
+.minus-mmr{
+    fill: #414141;
+}
+
+.user-comments-text{
+    font-weight: 400;
+    line-height: 1.28571;
+    letter-spacing: -0.28px;    
+}
