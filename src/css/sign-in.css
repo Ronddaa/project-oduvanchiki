@@ -43,6 +43,7 @@
     background-color: transparent;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sign-form-inp:hover, .sign-form-inp:focus, .sign-form-inp:active {
@@ -79,6 +80,7 @@
     line-height: 1.25;
     text-transform: uppercase;
     margin-bottom: 20px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sign-form-btn:hover,
@@ -93,6 +95,7 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 1.33;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sign-form-br {
@@ -102,6 +105,13 @@
 
 .sign-form-link {
     text-decoration: underline;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.sign-form-link:hover,
+.sign-form-link:focus,
+.sign-form-link:active {
+    color: #fff;
 }
 
 
