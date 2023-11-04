@@ -83,7 +83,7 @@
 @media (min-width: 1280px) {
   .mentors-list {
     width: 1080px;
-    margin: 0 0;
+    margin: 0;
   }
   .mentors-item {
     width: 180px;
