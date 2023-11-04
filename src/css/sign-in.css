@@ -161,3 +161,52 @@
         display: block;
     }
 }
+
+/* !Desktop */
+@media screen and (min-width: 1280px) {
+    .sign-second-div {
+        display: block;
+    }
+
+    .sign-wrap-tabl {
+        display: flex;
+        gap: 60px;
+    }
+
+    .sign-second-div-list {
+        display: flex;
+        gap: 39px;
+        align-items: flex-end;
+    }
+
+    .sign-second-div-first-item {
+        width: 180px;
+        height: 288px;
+        border-radius: 1000px;
+        background-color: #BEA69E;
+        position: relative;
+    }
+
+    .sign-img-first {
+        position: absolute;
+        top: 76px;
+        right: 19px;
+        
+    }
+
+    .sign-second-div-second-item {
+        width: 340px;
+        height: 540px;
+        border-radius: 1000px;
+        background-color: #1D1D1D;
+        position: relative;
+    }
+
+    .sign-img-second {
+       position: absolute;
+       top: 156px;
+       left: 50px;
+    }
+
+
+}
