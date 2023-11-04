@@ -80,3 +80,13 @@
   }
 }
 
+@media (min-width: 1280px) {
+  .mentors-list {
+    width: 1080px;
+    margin: 0 23px;
+  }
+  .mentors-item {
+    width: calc((100% - 300) / 4);
+
+  }
+}
