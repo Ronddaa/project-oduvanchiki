@@ -16,7 +16,13 @@
   height: 20px;
   fill: #ffff;
   flex-shrink: 0;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.hero-logo-link:hover > .header-logo,
+.hero-logo-link:focus > .header-logo {
+  fill: #bea69e;
+}
+
 .hero-navigation-menu {
   display: none;
 }
@@ -34,7 +40,8 @@
   width: 32px;
   height: 32px;
 }
-.header-sign-up:active .header-sign-up-icon {
+.header-sign-up:active > .header-sign-up-icon,
+.header-sign-up:focus > .header-sign-up-icon {
   fill: rgba(190, 166, 158, 1);
 }
 .header-sign-up-icon {
@@ -50,12 +57,19 @@
   padding: 0;
   align-items: end;
 }
+.header-burger-button:hover > .strip,
+.header-burger-button:focus > .strip {
+  background-color: #bea69e;
+}
+
 .strip {
   width: 28px;
   height: 2px;
   border-radius: 2px;
   background-color: #ffff;
+  transition: bacground-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .strip-center {
   width: 20px;
 }
@@ -91,11 +105,13 @@
     font-weight: 700;
     line-height: 1.55;
     text-transform: uppercase;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .header-sign-up-link:hover,
   .header-sign-up-link:focus {
-    background-color: #1d1d1d;
     color: #bea69e;
+    background-color: #1d1d1d;
   }
 }
 @media (min-width: 1280px) {
@@ -129,6 +145,7 @@
   .hero-navigation-link {
     text-transform: uppercase;
     line-height: normal;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .hero-navigation-link:focus,
   .hero-navigation-link:hover {
