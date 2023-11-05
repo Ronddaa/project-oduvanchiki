@@ -80,8 +80,8 @@
 
     .about-title{
         font-size: 48px;
-            line-height: 54px;       
-            letter-spacing: -1.92px;
+        line-height: 54px;       
+        letter-spacing: -1.92px;
     }
 
     .wrapp-content{
@@ -109,7 +109,13 @@
 
     .about-text{
         font-size: 16px;  
-            line-height: 20px;           
-            letter-spacing: -0.32px;
+        line-height: 20px;           
+        letter-spacing: -0.32px;
+    }
+}
+
+@media (min-width:1440px) {
+    .about-photo{
+        max-width: 560px;
     }
 }
