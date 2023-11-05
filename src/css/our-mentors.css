@@ -92,13 +92,13 @@
 
 }
 
-
-
-
-
 @media (min-width: 1440px) {
   .mentors-list {
     width: 1240px;
+  }
+
+  .item-mia {
+    width: 194px;
   }
 }
 
