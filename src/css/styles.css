@@ -39,6 +39,15 @@ section {
   background-repeat: round;
 }
 
+/* BERGER MENU OPEN */
+
+.is-open-burger-menu{
+  display: block;
+  transform: translateX(0);
+}
+
+/* Berger MENU OPEN */
+
 
 
 @media (min-width: 768px) {
