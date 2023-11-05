@@ -220,3 +220,20 @@
 
 
 }
+
+
+@media screen and (min-width: 1440px) {
+    .sign-wrap-tabl {
+        gap: 200px;
+    }
+
+    .sign-second-div-first-item {
+        width: 190px;
+    }
+
+    .sign-second-div-second-item {
+        width: 350px;
+    }
+
+
+}
