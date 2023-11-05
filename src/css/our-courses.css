@@ -101,7 +101,7 @@
     }
     .our-courses-title {
         font-size: 48px;
-        line-height: 1.12; /* 112.5% */
+        line-height: 1.125; /* 112.5% */
         letter-spacing: -1.92px;
         min-width: 265px;
     }
@@ -121,6 +121,7 @@
     }
     .course-card-header-wrapper {
         max-width: 278px;
+        margin-bottom: 32px
     }
     .card-title {
         min-width: 265px;
@@ -134,5 +135,49 @@
     .course-card-main {
         height: 324px;
         max-width: 278px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .course-title-wrapper {
+        gap: 0;
+        justify-content: space-between;
+    }
+    .our-courses-p {
+        max-width: 405px;
+    }
+    .course-card-header-wrapper {
+        max-width: 283px;
+    }
+    .our-courses-list {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .our-courses-item {
+        min-width: 347px;
+    }
+    .card-p {
+        min-width: 283px;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .our-courses-p {
+        min-height: 60px;
+        min-width: 565px;
+    }
+    .course-card-header-wrapper {
+        max-width: 336px;
+    }
+    .our-courses-item {
+        min-width: 400px;
+    }
+    .card-p {
+        min-width: 336px;
+        min-height: 60px;
+    }
+    .course-card-main {
+        max-width: 336px;
     }
 }
