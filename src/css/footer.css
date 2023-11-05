@@ -147,6 +147,11 @@
 /* ===================TAB-768================== */
 
 @media (min-width: 768px) {
+  .footer-icon {
+    width: 123px;
+    height: 16px;
+  }
+
   .footer-text-wrap {
     padding-bottom: 25px;
     margin-top: 0;
@@ -189,9 +194,18 @@
     gap: 20px;
   }
 
+  .footer-address-wrap {
+    margin-bottom: 0;
+    margin-right: 285px;
+  }
+
   .footer-address-soc-btn {
     padding-top: 50px;
     margin-bottom: 50px;
+  }
+
+  .footer-form-wrap {
+    margin-left: 130px;
   }
 
   .footer-soc-wrap {
@@ -213,5 +227,13 @@
 @media (min-width: 1440px) {
   .footer-soc-wrap {
     column-gap: 100px;
+  }
+
+  .footer-address-wrap {
+    margin-right: 341px;
+  }
+
+  .footer-form-wrap {
+    margin-left: 189px;
   }
 }
