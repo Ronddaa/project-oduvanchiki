@@ -17,14 +17,17 @@
   margin-bottom: 40px;
 }
 
-.footer-link-logo {
-}
-
 .footer-icon {
   width: 127px;
   height: 20px;
   margin-bottom: 16px;
   fill: #fff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-icon:focus,
+.footer-icon:hover {
+  fill: #bea69e;
 }
 
 .footer-list-address {
@@ -32,6 +35,15 @@
 
 .footer-address-item {
   margin-bottom: 10px;
+}
+
+.footer-address-item {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-address-item:focus,
+.footer-address-item:hover {
+  color: #bea69e;
 }
 
 .footer-address-link {
@@ -59,8 +71,10 @@
 .footer-soc-item {
   text-transform: uppercase;
   font-weight: 400;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-soc-item:focus,
 .footer-soc-item:hover {
   color: #bea69e;
 }
@@ -105,6 +119,12 @@
   border-radius: 12px;
   background: #1d1d1d;
   border: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-button:focus,
+.footer-button:hover {
+  color: #bea69e;
 }
 
 .footer-text-wrap {
@@ -176,6 +196,7 @@
 
   .footer-soc-wrap {
     column-gap: 55px;
+    margin: 0 auto;
   }
 
   .footer-input {
@@ -184,5 +205,13 @@
 
   .footer-form-input {
     gap: 16px;
+  }
+}
+
+/* =================DESKTOP-1440================ */
+
+@media (min-width: 1440px) {
+  .footer-soc-wrap {
+    column-gap: 100px;
   }
 }
