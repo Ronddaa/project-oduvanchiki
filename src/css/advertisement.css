@@ -68,7 +68,7 @@
     
     @keyframes runline {
         0% {
-            transform: translateX(130%);
+            transform: translateX(180%);
         }
     
         100% {
