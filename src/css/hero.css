@@ -12,7 +12,6 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -0.04em;
-  margin-bottom: 20px;
 }
 .hero-photography {
   color: #bea69e;
@@ -23,12 +22,12 @@
 .hero-text {
   line-height: 1.28;
   letter-spacing: -0.02em;
-  margin-bottom: 40px;
+  margin-top: 20px;
 }
 .hero-students-reviews {
   display: flex;
   gap: 40px;
-  margin-bottom: 31px;
+  margin-top: 40px;
 }
 .hero-students-block {
   display: flex;
@@ -71,6 +70,7 @@
   color: #bea69e;
 }
 .hero-arrow-icon {
+  position: relative;
   fill: #fff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -78,6 +78,11 @@
 .hero-arrow-icon:focus {
   fill: #bea69e;
   cursor: pointer;
+}
+.hero-happy-link:hover + .hero-arrow-icon,
+.hero-happy-link:focus + .hero-arrow-icon{
+  fill: #bea69e;
+  left: 15px;
 }
 .hero-reviews-wrap {
   display: flex;
@@ -108,7 +113,7 @@
   letter-spacing: -0.04em;
 }
 .hero-img {
-  margin: -31px auto 0 auto;
+  margin: 0 auto;
 }
 @media (min-width: 768px) {
   .hero-wrap {
@@ -143,7 +148,7 @@
     line-height: 1.25;
   }
   .hero-students-reviews {
-    margin-bottom: 41px;
+    margin-top: 40px;
   }
   .hero-img {
     margin-top: -61px;
