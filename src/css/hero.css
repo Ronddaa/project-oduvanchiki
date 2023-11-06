@@ -60,6 +60,7 @@
   align-items: center;
 }
 .hero-happy-link {
+  max-width: 67px;
   display: block;
   line-height: 1.28;
   letter-spacing: -0.04em;
@@ -136,6 +137,7 @@
     gap: 8px;
   }
   .hero-happy-link {
+    max-width: 82px;
     font-size: 16px;
     line-height: 1.25;
   }
