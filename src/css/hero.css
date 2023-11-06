@@ -29,6 +29,14 @@
   gap: 40px;
   margin-top: 40px;
 }
+
+@media (max-width: 335px){
+  .hero-students-reviews{
+    justify-content: space-between;
+    gap: 0;
+  }
+}
+
 .hero-students-block {
   display: flex;
   flex-direction: column;
@@ -60,6 +68,7 @@
   align-items: center;
 }
 .hero-happy-link {
+  max-width: 67px;
   display: block;
   line-height: 1.28;
   letter-spacing: -0.04em;
@@ -136,6 +145,7 @@
     gap: 8px;
   }
   .hero-happy-link {
+    max-width: 82px;
     font-size: 16px;
     line-height: 1.25;
   }
@@ -151,7 +161,6 @@
     margin-top: 40px;
   }
   .hero-img {
-    margin-top: -61px;
     width: 393px;
   }
   .hero-student-img {
