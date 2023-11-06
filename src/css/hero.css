@@ -29,6 +29,14 @@
   gap: 40px;
   margin-top: 40px;
 }
+
+@media (max-width: 335px){
+  .hero-students-reviews{
+    justify-content: space-between;
+    gap: 0;
+  }
+}
+
 .hero-students-block {
   display: flex;
   flex-direction: column;
