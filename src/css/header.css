@@ -119,10 +119,6 @@
   
 }
 
-.button-burger.active{
-
-}
-
 .button-burger:hover,
 .button-burger:focus {
   fill: #ffffff;
