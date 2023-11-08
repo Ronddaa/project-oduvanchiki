@@ -1,9 +1,17 @@
 // BURGER MENU - Open / Close
 
-document.getElementById("open-burger-menu").addEventListener("click", function () {
-    document.getElementById("burger-menu").classList.add("is-open-burger-menu")
-});
+let menuBtn = document.querySelector('.header-burger-button');
+let menu = document.querySelector('.backdrop-mobal');
+let modalBtnClose = document.querySelector('.button-burger');
+let modaBackground = document.querySelector('.background-burger');
 
-document.getElementById("close-burger-menu").addEventListener("click", function () {
-    document.getElementById("burger-menu").classList.remove("is-open-burger-menu")
+menuBtn.addEventListener('click', function () {
+  menuBtn.classList.toggle('active');
+  menu.classList.toggle('active');
+  modaBackground.classList.toggle('active');
+});
+modalBtnClose.addEventListener('click', function () {
+  modalBtnClose.classList.toggle('active');
+  menu.classList.toggle('active');
+  modaBackground.classList.toggle('active');
 });
